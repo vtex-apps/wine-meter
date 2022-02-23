@@ -1,5 +1,3 @@
-📢 Use this project, [contribute](https://github.com/Leadlion/Winemeter) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
-
 # WINE METER
 
 <!-- DOCS-IGNORE:start -->
