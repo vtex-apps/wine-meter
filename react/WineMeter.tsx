@@ -31,7 +31,7 @@ function Specs(this: any) {
 
   // @ts-ignore
   return filteredObj.map((item: any) => (
-    <div className={'wine-meter-0-x-winespec wine-meter-0-x-' + item.name}>
+    <div className={'leadlionpartnerro-wine-meter-0-x-winespec leadlionpartnerro-wine-meter-0-x-' + item.name}>
       { item.values[0] }
     </div>
   ));
@@ -123,7 +123,7 @@ function Canvas(this: any) {
 function WineMeter() {
   return (
     <div className={styles.graph} data-corp="3" data-tanini="3" data-fructe="4" data-dulceata="3" data-aciditate="3">
-      <div className="wine-meter-0-x-winemeter-logo"/>
+      <div className="leadlionpartnerro-wine-meter-0-x-winemeter-logo"/>
       <div className={styles.scalingSvgContainer}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 321.27 286.32" className={styles.scalingSvg}>
           <g id="Layer_2" data-name="Layer 2">
@@ -164,7 +164,7 @@ function WineMeter() {
           { Canvas() }
         </div>
       </div>
-      <div className="wine-meter-0-x-winespecs">
+      <div className="leadlionpartnerro-wine-meter-0-x-winespecs">
         { Specs() }
       </div>
     </div>

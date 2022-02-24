@@ -1,6 +1,6 @@
 {
   "name": "wine-meter",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "scripts": {
     "test": "vtex-test-tools test"
   },
@@ -25,6 +25,7 @@
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
     "graphql": "^14.6.0",
+    "leadlionpartnerro.wine-meter": "https://winelms--leadlionpartnerro.myvtex.com/_v/private/typings/linked/v1/leadlionpartnerro.wine-meter@0.0.2+build1640539477/public/@types/leadlionpartnerro.wine-meter",
     "react-intl": "^3.12.0",
     "typescript": "3.9.7",
     "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context",
