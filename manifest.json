@@ -3,7 +3,7 @@
   "name": "wine-meter",
   "version": "0.0.3",
   "title": "Winemeter",
-  "description": "Winemeter graphic",
+  "description": "Winemeter graphic widget",
   "builders": {
     "store": "0.x",
     "react": "3.x",
@@ -13,9 +13,13 @@
   "dependencies": {
     "vtex.product-context": "0.x"
   },
-  "registries": [
-    "smartcheckout"
-  ],
   "policies": [],
+  "billingOptions": {
+    "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
+    "support": {
+      "url": "https://support.vtex.com/hc/requests"
+    },
+    "free": true
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
