@@ -31,7 +31,7 @@ function Specs(this: any) {
 
   // @ts-ignore
   return filteredObj.map((item: any) => (
-    <div className={'wine-meter-0-x-winespec wine-meter-0-x-' + item.name}>
+    <div className={'vtex-wine-meter-1-x-winemeter-' + item.name}>
       { item.values[0] }
     </div>
   ));
@@ -123,7 +123,7 @@ function Canvas(this: any) {
 function WineMeter() {
   return (
     <div className={styles.graph} data-corp="3" data-tanini="3" data-fructe="4" data-dulceata="3" data-aciditate="3">
-      <div className="wine-meter-0-x-winemeter-logo"/>
+      <div className="vtex-wine-meter-1-x-winemeter-logo"/>
       <div className={styles.scalingSvgContainer}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 321.27 286.32" className={styles.scalingSvg}>
           <g id="Layer_2" data-name="Layer 2">
@@ -144,19 +144,19 @@ function WineMeter() {
       </div>
       <div className={styles.labels}>
         <span data-toggle="tooltip"
-              title="Corpul vinului este dat de alcool și de extractul strugurelui. Cu cât vinul este mai corpolent, cu atât este mai dens."
+              title="Corpul vinului este dat de alcool si de extractul strugurelui. Cu cat vinul este mai corpolent, cu atat este mai dens."
               className={styles.labelCorp}>Corp</span>
         <span data-toggle="tooltip"
-              title="O concentrație mai mare de tanini, oferă vinului un gust puțin amărui care ne “face gura pungă”."
+              title="O concentratie mai mare de tanini, ofera vinului un gust putin amarui care ne “face gura punga”."
               className={styles.labelTanini}>Tanini</span>
         <span data-toggle="tooltip"
-              title="Nivelul fructelor determină dacă vinul are gust și arome accentuate de fructe sau acestea lipsesc."
+              title="Nivelul fructelor determina daca vinul are gust si arome accentuate de fructe sau acestea lipsesc."
               className={styles.labelFructe}>Fructe</span>
         <span data-toggle="tooltip"
-              title="Nivelul de dulceață oferă vinului un gust mai dulce sau mai acrișor, chiar dacă el este sec."
+              title="Nivelul de dulceata ofera vinului un gust mai dulce sau mai acrisor, chiar daca el este sec."
               className={styles.labelDulceata}>Dulceata</span>
         <span data-toggle="tooltip"
-              title="Aciditatea scăzută oferă vinului un gust “plat”, aciditatea mare un gust acrişor și astringent."
+              title="Aciditatea scazuta ofera vinului un gust “plat”, aciditatea mare un gust acrisor si astringent."
               className={styles.labelAciditate}>Aciditate</span>
       </div>
       <div className={styles.pentagon} id="5-factors">
@@ -164,7 +164,7 @@ function WineMeter() {
           { Canvas() }
         </div>
       </div>
-      <div className="wine-meter-0-x-winespecs">
+      <div className="vtex-wine-meter-1-x-winemeter-winespecs">
         { Specs() }
       </div>
     </div>

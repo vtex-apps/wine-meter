@@ -29,6 +29,18 @@
   z-index: 999;
 }
 
+
+.winemeter-logo {
+  width: 75px;
+  height: 50px;
+  position: absolute;
+  background: url(assets/winefulmeter.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 25px;
+  left: 25px;
+}
+
 .graph{
   position: relative;
   display: block;
@@ -56,7 +68,7 @@
   margin-bottom: -450px;
 }
 
-.winespecs {
+.winemeter-winespecs {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -64,7 +76,10 @@
   flex-wrap: wrap;
 }
 
-.winespec {
+.winemeter-winespec_decantare,
+.winemeter-winespec_mancare,
+.winemeter-winespec_temperatura,
+.winemeter-winespec_invechire {
   max-width: 50%;
   width: 100%;
   margin-bottom: 30px;
@@ -77,19 +92,19 @@
   font-size: 12px;
 }
 
-.winespec.winespec_decantare {
+.winemeter-winespec_decantare {
   background: url(assets/decantare.svg);
 }
 
-.winespec.winespec_mancare {
+.winemeter-winespec_mancare {
   background: url(assets/mancare.svg);
 }
 
-.winespec.winespec_temperatura {
+.winemeter-winespec_temperatura {
   background: url(assets/temperatura.svg);
 }
 
-.winespec.winespec_invechire {
+.winemeter-winespec_invechire {
   background: url(assets/timp.svg);
 }
 
